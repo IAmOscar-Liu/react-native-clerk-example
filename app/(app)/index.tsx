@@ -1,4 +1,4 @@
-import LoadingPage from "@/components/loadingPage";
+import LoadingPage from "@/components/LoadingPage";
 
 export default function Index() {
   return <LoadingPage />;
