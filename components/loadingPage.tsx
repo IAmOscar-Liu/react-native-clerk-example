@@ -1,6 +1,6 @@
 import { View, ActivityIndicator } from "react-native";
 
-const landingPage = () => {
+const LoadingPage = () => {
   return (
     <View className="flex-1 items-center justify-center bg-white">
       <ActivityIndicator size="large" color="#0000ff" />
@@ -8,4 +8,4 @@ const landingPage = () => {
   );
 };
 
-export default landingPage;
+export default LoadingPage;
